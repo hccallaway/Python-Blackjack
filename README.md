@@ -6,6 +6,8 @@ Created by Hadley Callaway as part of her 2020 Kleiner Perkins Engineering Fello
 
 `python3 blackjack.py`
 
+## The codebase:
+
 ### blackjack.py
 
 This file creates a `Game` object and then calls that object's `play` method.
