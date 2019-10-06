@@ -77,11 +77,6 @@ class Game:
             if hit_answer == 'h':
                 new_card = self.deck.deal()
                 self.player.add_card(new_card)
-                # if 21 < self.player.get_total():
-                #     print("Bust! Your hand went over 21")
-                #
-                #     self.determine_winner()
-                #     self.end_game()
                 continue
             elif hit_answer == 's':
                 self.determine_winner()
